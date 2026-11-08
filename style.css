@@ -1,0 +1,105 @@
+/* Configurações gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #26352f;
+    background: #f7f8f5;
+    line-height: 1.6;
+}
+
+/* Caveat é aplicada somente aos títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+}
+
+header {
+    background: #163b32;
+    color: white;
+    padding: 65px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background: #245548;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 22px;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+h2 {
+    color: #245548;
+    font-size: 36px;
+}
+
+h3 {
+    color: #245548;
+    font-size: 29px;
+}
+
+footer {
+    background: #163b32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    header {
+        padding: 45px 16px;
+    }
+
+    header h1 {
+        font-size: 44px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 16px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    main {
+        margin: 30px auto;
+        padding: 0 18px;
+    }
+}
