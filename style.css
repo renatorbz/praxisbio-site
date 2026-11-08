@@ -19,11 +19,13 @@ h6 {
 }
 
 nav a {
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat', cursive !important;
     font-size: 24px;
     font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
 }
-
 header {
     background: #163b32;
     color: white;
