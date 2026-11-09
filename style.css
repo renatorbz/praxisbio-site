@@ -1,3 +1,4 @@
+
 /* Configurações gerais */
 body {
     margin: 0;
@@ -6,6 +7,7 @@ body {
     background: #f7f8f5;
     line-height: 1.6;
 }
+
 /* Fonte do menu */
 @font-face {
     font-family: 'Zerocalcare Trouble';
@@ -14,32 +16,17 @@ body {
     font-display: swap;
 }
 
-.menu {
-    font-family: 'Zerocalcare Trouble', sans-serif;
-}
-/* Caveat é aplicada somente aos títulos */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* Fonte dos títulos */
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Caveat', cursive;
     font-weight: 600;
 }
 
-nav a {
-    font-family: 'Caveat', cursive !important;
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    margin: 0 12px;
-}
+/* Cabeçalho */
 header {
     background: #163b32;
     color: white;
-    padding: 20px 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -52,6 +39,7 @@ header p {
     font-size: 18px;
 }
 
+/* Menu */
 nav {
     background: #245548;
     padding: 14px;
@@ -59,6 +47,9 @@ nav {
 }
 
 nav a {
+    font-family: 'Zerocalcare Trouble', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
     color: white;
     text-decoration: none;
     margin: 0 12px;
@@ -68,6 +59,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Conteúdo principal */
 main {
     max-width: 950px;
     margin: 40px auto;
@@ -88,6 +80,7 @@ h3 {
     font-size: 29px;
 }
 
+/* Rodapé */
 footer {
     background: #163b32;
     color: white;
@@ -98,7 +91,7 @@ footer {
 /* Ajustes para telas menores */
 @media (max-width: 600px) {
     header {
-        padding: 45px 16px;
+        padding: 20px 16px;
     }
 
     header h1 {
