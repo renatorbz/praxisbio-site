@@ -6,6 +6,19 @@ body {
     background: #f7f8f5;
     line-height: 1.6;
 }
+/* tabela */
+table {
+    width: 100%; /* Ocupa a largura total da página */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+td {
+    width: 50%; /* Garante que cada coluna ocupe exatamente metade */
+    vertical-align: top; /* Alinha o texto no topo da célula */
+    padding: 15px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Linha opcional para ver a divisão */
+}
 
 /* Caveat é aplicada somente aos títulos */
 h1,
