@@ -7,6 +7,14 @@ body {
     background: #f7f8f5;
     line-height: 1.6;
 }
+/* link */
+a:hover {
+    text-decoration: none;
+}
+a {
+    color: inherit;
+    text-decoration: underline;
+}
 
 /* Fonte do menu */
 @font-face {
